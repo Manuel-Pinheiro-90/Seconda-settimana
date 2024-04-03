@@ -96,6 +96,7 @@ console.log("Totale da addebitare all'utente per il checkout: " + totaleSpesa.to
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// esercizio 7 non farina del mio sacco
 let num1 = 10;
 let num2 = 5;
 let num3 = 7;
