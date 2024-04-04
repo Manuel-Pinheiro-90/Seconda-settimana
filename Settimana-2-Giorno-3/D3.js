@@ -202,16 +202,16 @@ console.log( "la massa dell'equipaggio è " + crewMass)
 */
 
 switch (true) {
-  case totalMass < 500:
+  case crewMass < 500:
     console.log("Ship is under loaded");
     break;
-  case totalMass >= 500 && totalMass < 700:
+  case crewMass >= 500 && crewMass < 700:
     console.log("Ship is half loaded");
     break;
-  case totalMass >= 700 && totalMass < 900:
+  case crewMass >= 700 && crewMass < 900:
     console.log("Warning: Load is over 700");
     break;
-  case totalMass >= 900 && totalMass < 1000:
+  case crewMass >= 900 && crewMass < 1000:
     console.log("Critical Load: Over 900");
     break;
   default:
